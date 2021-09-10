@@ -1,13 +1,14 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
 int main()
 {
-    /* Get input from user */
+    /* Initializing Variables */
     string firstName, lastName;
     int inches;
+
+    /* Get input from user */
     cout << "Hello! What is your full name?" << endl;
     cin >> firstName;
     cin >> lastName;
